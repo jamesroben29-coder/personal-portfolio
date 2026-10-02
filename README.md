@@ -1,16 +1,61 @@
-# React + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio for Nyi Nyi Aung, a Junior Frontend Developer and React Developer. It showcases my skills, projects, learning journey, and ways to get in touch.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View the live portfolio](https://jamesroben29-coder.github.io/personal-portfolio/)
 
-## React Compiler
+## About the Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio presents my frontend development work and ongoing learning. It includes my React projects, skills, professional links, contact information, and a downloadable CV.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive portfolio layout with a mobile navigation menu
+- Hero, About, Skills, Projects, Learning Journey, and Contact sections
+- Project cards linking to live demos and GitHub repositories
+- GitHub, LinkedIn, and email links
+- Downloadable CV
+- Scroll reveal animations as sections enter view
+
+## Tech Stack
+
+- React and JavaScript (JSX)
+- Vite
+- CSS
+- Lucide React and Font Awesome icons
+
+## Project Structure
+
+```text
+public/
+  - Nyi-Nyi-Aung-CV.pdf
+src/
+  - assets/
+  - components/
+    - About.jsx
+    - Contact.jsx
+    - Education.jsx
+    - Footer.jsx
+    - Hero.jsx
+    - Home.jsx
+    - Learning.jsx
+    - Navbar.jsx
+    - Projects.jsx
+    - ScrollReveal.jsx
+    - Skills.jsx
+  - App.css
+  - App.jsx
+  - index.css
+  - main.jsx
+```
+
+## Getting Started
+
+```bash
+git clone https://github.com/jamesroben29-coder/personal-portfolio.git
+cd personal-portfolio
+npm install
+npm run dev
+```
