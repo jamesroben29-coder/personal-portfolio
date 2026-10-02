@@ -5,11 +5,58 @@ import {
   GitBranch,
 } from "lucide-react";
 
+// const skillGroups = [
+//   {
+//     icon: Code2,
+//     title: "Frontend Development",
+//     skills: ["HTML5", "CSS3", "JavaScript", "React.js"],
+//   },
+//   {
+//     icon: Palette,
+//     title: "Styling & UI",
+//     skills: [
+//       "Tailwind CSS",
+//       "Responsive Design",
+//       "Figma",
+//       "Lucide React",
+//     ],
+//   },
+//   {
+//     icon: Wrench,
+//     title: "React & Tools",
+//     skills: [
+//       "Vite",
+//       "React Router",
+//       "Context API",
+//       "LocalStorage",
+//     ],
+//   },
+//   {
+//     icon: GitBranch,
+//     title: "Tools & Deployment",
+//     skills: [
+//       "Git",
+//       "GitHub",
+//       "Vercel",
+//       "VS Code",
+//     ],
+//   },
+// ];
+
+
 const skillGroups = [
   {
     icon: Code2,
     title: "Frontend Development",
-    skills: ["HTML5", "CSS3", "JavaScript", "React.js"],
+    skills: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React.js",
+      "Vite",
+      "React Router",
+      "Context API",
+    ],
   },
   {
     icon: Palette,
@@ -23,22 +70,20 @@ const skillGroups = [
   },
   {
     icon: Wrench,
-    title: "React & Tools",
+    title: "Development Tools",
     skills: [
-      "Vite",
-      "React Router",
-      "Context API",
+      "Git",
+      "GitHub",
+      "VS Code",
       "LocalStorage",
     ],
   },
   {
     icon: GitBranch,
-    title: "Tools & Deployment",
+    title: "Deployment",
     skills: [
-      "Git",
-      "GitHub",
       "Vercel",
-      "VS Code",
+      "GitHub Pages",
     ],
   },
 ];
