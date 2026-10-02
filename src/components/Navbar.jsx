@@ -102,7 +102,10 @@ const Navbar = () => {
             </a>
           </div>
 
-          <a href="/Nyi-Nyi-Aung-CV.pdf" className="resume-btn">
+          <a
+            href={`${import.meta.env.BASE_URL}Nyi-Nyi-Aung-CV.pdf`}
+            download
+          >
             Download CV
           </a>
 
