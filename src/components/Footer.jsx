@@ -16,7 +16,6 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
-        {/* Top */}
         <div className="footer-top">
           <div className="footer-brand">
             <a href="#home" className="footer-logo">
@@ -30,19 +29,19 @@ function Footer() {
 
             <div className="footer-socials">
                 <a
-                href="https://github.com/jamesroben29-coder"
-                target="_blank"
-                rel="noreferrer"
+                 href="https://github.com/jamesroben29-coder"
+                 target="_blank"
+                 rel="noreferrer"
                 aria-label="GitHub"
                 >
                 <FontAwesomeIcon icon={faGithub} />
                 </a>
 
                 <a
-                href="https://www.linkedin.com/in/nyi-nyi-aung-536419433"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="LinkedIn"
+                 href="https://www.linkedin.com/in/nyi-nyi-aung-536419433"
+                 target="_blank"
+                 rel="noreferrer"
+                 aria-label="LinkedIn"
                 >
                 <FontAwesomeIcon icon={faLinkedinIn} />
                 </a>
@@ -94,8 +93,6 @@ function Footer() {
               </a>
             </div>
           </div>
-
-          {/* Back to top */}
           <button
             className="footer-top-button"
             onClick={scrollToTop}
@@ -104,8 +101,6 @@ function Footer() {
             <ArrowUp size={20} />
           </button>
         </div>
-
-        {/* Bottom */}
         <div className="footer-bottom">
           <p>
             © {new Date().getFullYear()} Nyi Nyi Aung. All rights reserved.

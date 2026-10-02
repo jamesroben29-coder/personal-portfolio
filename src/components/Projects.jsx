@@ -53,8 +53,6 @@ function Projects() {
   return (
     <section className="projects-section" id="projects">
       <div className="projects-container">
-
-        {/* Header */}
         <div className="projects-header">
           <span className="section-label">
             <Sparkles size={16} />
@@ -72,8 +70,6 @@ function Projects() {
             frontend development skills and learning modern React.
           </p>
         </div>
-
-        {/* Projects */}
         <div className="projects-grid">
           {projects.map((project) => (
             <article
@@ -82,10 +78,7 @@ function Projects() {
               }`}
               key={project.number}
             >
-              {/* Glow */}
               <div className="project-glow"></div>
-
-              {/* Top */}
               <div className="project-top">
                 <span className="project-number">
                   {project.number}
@@ -95,8 +88,6 @@ function Projects() {
                   <ArrowUpRight size={24} />
                 </div>
               </div>
-
-              {/* Content */}
               <div className="project-content">
                 <span className="project-category">
                   {project.category}
@@ -105,16 +96,12 @@ function Projects() {
                 <h3>{project.title}</h3>
 
                 <p>{project.description}</p>
-
-                {/* Technologies */}
                 <div className="project-tech">
                   {project.technologies.map((tech) => (
                     <span key={tech}>{tech}</span>
                   ))}
                 </div>
               </div>
-
-              {/* Bottom */}
               <div className="project-footer">
                 <div className="project-links">
                   <a

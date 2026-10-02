@@ -9,8 +9,6 @@ function Education() {
   return (
     <section className="education-section" id="education">
       <div className="education-container">
-
-        {/* Left Content */}
         <div className="education-header">
           <span className="section-label">Education</span>
 
@@ -23,8 +21,6 @@ function Education() {
             journey into frontend development.
           </p>
         </div>
-
-        {/* Right Card */}
         <div className="education-card">
 
           <div className="education-card-top">

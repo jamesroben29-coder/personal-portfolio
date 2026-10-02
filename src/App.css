@@ -1,7 +1,5 @@
-/* =========================
-   HERO
-========================= */
 
+/* ့Hero Styling */
 .hero {
   position: relative;
   min-height: 100vh;
@@ -28,10 +26,6 @@
 
   padding-top: 76px;
 }
-
-/* =========================
-   HERO CONTENT
-========================= */
 
 .hero-content {
   position: relative;
@@ -84,10 +78,6 @@
   font-weight: 600;
 }
 
-/* =========================
-   HERO ROLE ANIMATION
-========================= */
-
 .hero-role {
   display: flex;
   align-items: center;
@@ -101,28 +91,20 @@
   transform: translateX(100px);
 }
 
-/* Junior Frontend Developer */
 .role-one {
   animation: roleOne 6s infinite;
 }
 
-/* | */
 .role-divider {
   opacity: 0;
   animation: dividerAnimation 6s infinite;
 }
 
-/* React Developer */
 .role-two {
   opacity: 0;
   transform: translateX(100px);
   animation: roleTwo 6s infinite;
 }
-
-
-/* =========================
-   JUNIOR FRONTEND DEVELOPER
-========================= */
 
 @keyframes roleOne {
   0% {
@@ -151,11 +133,6 @@
   }
 }
 
-
-/* =========================
-   DIVIDER
-========================= */
-
 @keyframes dividerAnimation {
   0%,
   10% {
@@ -172,11 +149,6 @@
     opacity: 0;
   }
 }
-
-
-/* =========================
-   REACT DEVELOPER
-========================= */
 
 @keyframes roleTwo {
   0%,
@@ -216,10 +188,6 @@
   font-size: 16px;
   line-height: 1.8;
 }
-
-/* =========================
-   HERO BUTTONS
-========================= */
 
 .hero-buttons {
   display: flex;
@@ -272,10 +240,6 @@
   transform: translateY(-2px);
 }
 
-/* =========================
-   HERO SOCIALS
-========================= */
-/* Font Awesome Icons */
 .social-links svg,
 .hero-socials svg {
   width: 20px;
@@ -318,10 +282,6 @@
   transform: translateY(-3px);
 }
 
-/* =========================
-   HERO VISUAL
-========================= */
-
 .hero-visual {
   position: relative;
 
@@ -344,10 +304,6 @@
 
   filter: blur(60px);
 }
-
-/* =========================
-   CODE CARD
-========================= */
 
 .code-card {
   position: relative;
@@ -440,10 +396,6 @@
   color: var(--color-text-muted);
 }
 
-/* =========================
-   FLOATING CARD
-========================= */
-
 .hero-floating-card {
   position: absolute;
 
@@ -496,9 +448,7 @@
 }
 
 
-/* =========================
-   HERO RESPONSIVE
-========================= */
+/* ့Hero responsive Styling */
 
 @media (max-width: 900px) {
   .hero-container {
@@ -546,7 +496,6 @@
     letter-spacing: -1px;
   }
 
-  /* Animated role */
   .hero h2.hero-role {
     min-height: 28px;
     margin-bottom: var(--space-lg);
@@ -624,10 +573,8 @@
   }
 }
 
-/* =========================
-   ABOUT SECTION
-========================= */
 
+/* About Styling */
 .about {
   padding: 120px 0;
 }
@@ -726,9 +673,7 @@
   font-size: 0.95rem;
 }
 
-/* =========================
-   ABOUT RESPONSIVE
-========================= */
+/* About Responsive Styling */
 
 @media (max-width: 768px) {
   .about {
@@ -787,11 +732,7 @@
 }
 
 
-
-/* =========================
-   SKILLS
-========================= */
-
+/* Skills Styling */
 .skills-section {
   position: relative;
   min-height: 100vh;
@@ -911,7 +852,7 @@
   border-color: rgba(22, 185, 245, 0.3);
 }
 
-/* Tablet */
+/* Skill Responsive Styling */
 
 @media (max-width: 900px) {
   .skills-section {
@@ -922,8 +863,6 @@
     grid-template-columns: 1fr;
   }
 }
-
-/* Mobile */
 
 @media (max-width: 600px) {
   .skills-section {
@@ -953,10 +892,7 @@
 }
 
 
-
-/* =========================
-   PROJECTS
-========================= */
+/* Projects Styling */
 
 .projects-section {
   position: relative;
@@ -968,10 +904,6 @@
   width: min(1200px, 90%);
   margin: 0 auto;
 }
-
-/* =========================
-   HEADER
-========================= */
 
 .projects-header {
   max-width: 760px;
@@ -1008,21 +940,11 @@
   line-height: 1.8;
 }
 
-
-/* =========================
-   PROJECT GRID
-========================= */
-
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
 }
-
-
-/* =========================
-   PROJECT CARD
-========================= */
 
 .project-card {
   position: relative;
@@ -1053,17 +975,10 @@
 }
 
 
-/* Featured Project */
-
 .project-featured {
   grid-column: span 2;
   min-height: 390px;
 }
-
-
-/* =========================
-   CARD GLOW
-========================= */
 
 .project-glow {
   position: absolute;
@@ -1086,11 +1001,6 @@
     transform 0.5s ease;
 }
 
-
-/* =========================
-   CARD HOVER
-========================= */
-
 .project-card:hover {
   transform: translateY(-8px);
 
@@ -1105,11 +1015,6 @@
   opacity: 1;
   transform: scale(1.2);
 }
-
-
-/* =========================
-   TOP
-========================= */
 
 .project-top {
   position: relative;
@@ -1160,11 +1065,6 @@
   color: #06121d;
 }
 
-
-/* =========================
-   CONTENT
-========================= */
-
 .project-content {
   position: relative;
   z-index: 2;
@@ -1212,11 +1112,6 @@
   line-height: 1.75;
 }
 
-
-/* =========================
-   TECHNOLOGIES
-========================= */
-
 .project-tech {
   display: flex;
   flex-wrap: wrap;
@@ -1253,11 +1148,6 @@
   background: rgba(22, 185, 245, 0.08);
 }
 
-
-/* =========================
-   FOOTER
-========================= */
-
 .project-footer {
   position: relative;
   z-index: 2;
@@ -1269,11 +1159,6 @@
   margin-top: auto;
   padding-top: 35px;
 }
-
-
-/* =========================
-   LINKS
-========================= */
 
 .project-links {
   display: flex;
@@ -1303,11 +1188,6 @@
   transform: translateY(-2px);
 }
 
-
-/* =========================
-   VIEW PROJECT
-========================= */
-
 .view-project {
   display: inline-flex;
   align-items: center;
@@ -1334,10 +1214,7 @@
   color: var(--color-primary);
 }
 
-
-/* =========================
-   TABLET
-========================= */
+/* Projects Responsive Styling */
 
 @media (max-width: 900px) {
 
@@ -1357,11 +1234,6 @@
     min-height: 420px;
   }
 }
-
-
-/* =========================
-   MOBILE
-========================= */
 
 @media (max-width: 600px) {
 
@@ -1414,10 +1286,7 @@
 }
 
 
-
-/* =========================
-   CONTACT
-========================= */
+/* Contact Styling */
 
 .contact-section {
   position: relative;
@@ -1429,8 +1298,6 @@
   width: min(1200px, 90%);
   margin: 0 auto;
 }
-
-/* Header */
 
 .contact-header {
   max-width: 800px;
@@ -1472,18 +1339,12 @@
   line-height: 1.8;
 }
 
-
-/* Content */
-
 .contact-content {
   display: grid;
   grid-template-columns: 0.9fr 1.1fr;
   gap: 60px;
   align-items: start;
 }
-
-
-/* Info */
 
 .contact-info-header {
   margin-bottom: 28px;
@@ -1505,9 +1366,6 @@
   font-size: 15px;
   line-height: 1.7;
 }
-
-
-/* Contact Items */
 
 .contact-item {
   position: relative;
@@ -1605,9 +1463,6 @@
   color: var(--color-primary);
 }
 
-
-/* Form */
-
 .contact-form {
   padding: 34px;
 
@@ -1636,9 +1491,6 @@
     0 20px 55px rgba(0, 0, 0, 0.2),
     0 0 35px rgba(22, 185, 245, 0.05);
 }
-
-
-/* Form Group */
 
 .form-group {
   margin-bottom: 22px;
@@ -1703,9 +1555,6 @@
     0 0 0 3px rgba(22, 185, 245, 0.08);
 }
 
-
-/* Submit */
-
 .contact-submit {
   display: inline-flex;
   align-items: center;
@@ -1748,10 +1597,7 @@
   transform: translate(3px, -3px);
 }
 
-
-/* =========================
-   TABLET
-========================= */
+/* Contact Responsive Styling */
 
 @media (max-width: 850px) {
   .contact-content {
@@ -1763,11 +1609,6 @@
     max-width: 700px;
   }
 }
-
-
-/* =========================
-   MOBILE
-========================= */
 
 @media (max-width: 600px) {
   .contact-section {
@@ -1798,9 +1639,7 @@
 }
 
 
-/* =========================
-   EDUCATION
-========================= */
+/* Education Styling */
 
 .education-section {
   position: relative;
@@ -1816,10 +1655,6 @@
   align-items: center;
   gap: 90px;
 }
-
-/* =========================
-   LEFT CONTENT
-========================= */
 
 .education-header {
   max-width: 480px;
@@ -1856,11 +1691,6 @@
   line-height: 1.8;
 }
 
-
-/* =========================
-   EDUCATION CARD
-========================= */
-
 .education-card {
   position: relative;
 
@@ -1885,9 +1715,6 @@
     box-shadow 0.4s ease;
 }
 
-
-/* Glow */
-
 .education-card::before {
   content: "";
 
@@ -1910,9 +1737,6 @@
     background 0.5s ease;
 }
 
-
-/* Bottom glow */
-
 .education-card::after {
   content: "";
 
@@ -1932,9 +1756,6 @@
 
   transition: 0.5s ease;
 }
-
-
-/* Hover */
 
 .education-card:hover {
   transform: translateY(-8px);
@@ -1958,11 +1779,6 @@
   background: rgba(22, 185, 245, 0.09);
 }
 
-
-/* =========================
-   CARD TOP
-========================= */
-
 .education-card-top {
   position: relative;
   z-index: 2;
@@ -1973,11 +1789,6 @@
 
   margin-bottom: 45px;
 }
-
-
-/* =========================
-   ICON
-========================= */
 
 .education-icon {
   width: 64px;
@@ -2008,11 +1819,6 @@
   border-color: rgba(22, 185, 245, 0.45);
 }
 
-
-/* =========================
-   ARROW
-========================= */
-
 .education-arrow {
   color: var(--color-primary);
 
@@ -2024,11 +1830,6 @@
 .education-card:hover .education-arrow {
   transform: translate(6px, -6px) rotate(2deg);
 }
-
-
-/* =========================
-   CONTENT
-========================= */
 
 .education-content {
   position: relative;
@@ -2112,10 +1913,7 @@
   font-size: 14px;
 }
 
-
-/* =========================
-   TABLET
-========================= */
+/* Education Responsive Styling */
 
 @media (max-width: 900px) {
 
@@ -2137,11 +1935,6 @@
     min-height: auto;
   }
 }
-
-
-/* =========================
-   MOBILE
-========================= */
 
 @media (max-width: 600px) {
 
@@ -2197,10 +1990,7 @@
   }
 }
 
-
-/* =========================
-   FOOTER
-========================= */
+/* Footer Styling */
 
 .footer {
   position: relative;
@@ -2228,8 +2018,6 @@
   width: min(1200px, 90%);
   margin: 0 auto;
 }
-
-/* Top */
 
 .footer-top {
   position: relative;
@@ -2270,8 +2058,6 @@
   margin-top: 22px;
 }
 
-/* Links */
-
 .footer-links {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -2310,8 +2096,6 @@
   transform: translateX(4px);
 }
 
-/* Back to top */
-
 .footer-top-button {
   width: 48px;
   height: 48px;
@@ -2337,8 +2121,6 @@
   transform: translateY(-4px);
 }
 
-/* Bottom */
-
 .footer-bottom {
   position: relative;
   z-index: 1;
@@ -2360,8 +2142,6 @@
 .footer-built {
   justify-self: end;
 }
-
-/* Socials */
 
 .footer-socials {
   display: flex;
@@ -2398,9 +2178,7 @@
   height: 18px;
 }
 
-/* =========================
-   TABLET
-========================= */
+/* Footer Responsive Styling */
 
 @media (max-width: 800px) {
   .footer-top {
@@ -2428,10 +2206,6 @@
   }
 }
 
-/* =========================
-   MOBILE
-========================= */
-
 @media (max-width: 600px) {
   .footer-top {
     padding: 55px 0 40px;
@@ -2457,5 +2231,148 @@
   .footer-bottom p,
   .footer-built {
     font-size: 12px;
+  }
+}
+
+.learning-section {
+  padding: 100px 0;
+  background:
+    radial-gradient(
+      circle at 75% 35%,
+      rgba(22, 185, 245, 0.05),
+      transparent 32%
+    );
+}
+
+.learning-container {
+  width: min(1200px, 90%);
+  margin: 0 auto;
+}
+
+.learning-header {
+  max-width: 800px;
+  margin-bottom: 48px;
+}
+
+.learning-header h2 {
+  margin: 0 0 20px;
+  color: var(--color-text);
+  font-size: clamp(38px, 5vw, 62px);
+  line-height: 1.08;
+  letter-spacing: -2px;
+}
+
+.learning-header p {
+  max-width: 760px;
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.learning-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.learning-card {
+  min-height: 250px;
+  padding: 26px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  background: rgba(10, 27, 43, 0.7);
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.learning-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(22, 185, 245, 0.35);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.2);
+}
+
+.learning-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.learning-icon {
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  color: var(--color-primary);
+  border: 1px solid rgba(22, 185, 245, 0.2);
+  border-radius: 14px;
+  background: rgba(22, 185, 245, 0.08);
+}
+
+.learning-status {
+  padding: 7px 10px;
+  color: var(--color-text-muted);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.03);
+  font-size: 12px;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.learning-card h3 {
+  margin: 0 0 12px;
+  color: var(--color-text);
+  font-size: 21px;
+}
+
+.learning-card p {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+@media (max-width: 900px) {
+  .learning-section {
+    padding: 85px 0;
+  }
+
+  .learning-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .learning-section {
+    padding: 70px 0;
+  }
+
+  .learning-header {
+    margin-bottom: 36px;
+  }
+
+  .learning-header h2 {
+    font-size: 38px;
+    letter-spacing: -1px;
+  }
+
+  .learning-header p {
+    font-size: 15px;
+  }
+
+  .learning-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .learning-card {
+    min-height: auto;
+    padding: 22px;
   }
 }

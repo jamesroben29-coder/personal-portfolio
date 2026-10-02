@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
 :root {
-  /* colors */
+  
   --color-primary: #16b9f5;
   --color-primary-hover: #0ea5df;
 
@@ -19,7 +19,7 @@
   --color-border-hover: rgba(22, 185, 245, 0.5);
   --color-overlay: rgba(6, 17, 29, 0.88);
 
-  /* font size and family */
+  
   --font-primary: "Inter", sans-serif;
   --font-size-xs: 12px;
   --font-size-sm: 14px;
@@ -29,7 +29,7 @@
   --font-size-2xl: 48px;
 
 
-  /* spancing */
+  
   --space-xs: 4px;
   --space-sm: 8px;
   --space-md: 16px;
@@ -37,22 +37,22 @@
   --space-xl: 32px;
   --space-2xl: 48px;
 
-  /* border radius */
+  
   --radius-sm: 6px;
   --radius-md: 8px;
   --radius-lg: 12px;
   --radius-xl: 16px;
   --radius-full: 999px;
 
-  /* shadow */
+  
   --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.15);
   --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.2);
 
-  /* transiton */
+  
   --transition-fast: 0.2s ease;
   --transition-normal: 0.3s ease;
 
-  /* layout */
+  
   --container-width: 1180px;
 }
 
@@ -207,7 +207,7 @@ button {
   cursor: pointer;
 }
 
-/* Tablet Screen */
+
 @media (max-width: 900px) {
   .nav-links {
     position: absolute;
@@ -247,9 +247,6 @@ button {
   }
 }
 
-/* =========================
-   Scroll Reveal
-========================= */
 
 .scroll-reveal {
   opacity: 0;

@@ -5,43 +5,6 @@ import {
   GitBranch,
 } from "lucide-react";
 
-// const skillGroups = [
-//   {
-//     icon: Code2,
-//     title: "Frontend Development",
-//     skills: ["HTML5", "CSS3", "JavaScript", "React.js"],
-//   },
-//   {
-//     icon: Palette,
-//     title: "Styling & UI",
-//     skills: [
-//       "Tailwind CSS",
-//       "Responsive Design",
-//       "Figma",
-//       "Lucide React",
-//     ],
-//   },
-//   {
-//     icon: Wrench,
-//     title: "React & Tools",
-//     skills: [
-//       "Vite",
-//       "React Router",
-//       "Context API",
-//       "LocalStorage",
-//     ],
-//   },
-//   {
-//     icon: GitBranch,
-//     title: "Tools & Deployment",
-//     skills: [
-//       "Git",
-//       "GitHub",
-//       "Vercel",
-//       "VS Code",
-//     ],
-//   },
-// ];
 
 
 const skillGroups = [

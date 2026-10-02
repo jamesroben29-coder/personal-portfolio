@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Learning from "./components/Learning";
 import Contact from "./components/Contact";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
@@ -34,6 +35,10 @@ function App() {
 
         <ScrollReveal>
           <Projects />
+        </ScrollReveal>
+
+        <ScrollReveal>
+          <Learning />
         </ScrollReveal>
 
         <ScrollReveal>

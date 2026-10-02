@@ -30,8 +30,6 @@ function Contact() {
         </div>
 
         <div className="contact-content">
-
-          {/* Left */}
           <div className="contact-info">
 
             <div className="contact-info-header">
@@ -106,8 +104,6 @@ function Contact() {
             </a>
 
           </div>
-
-          {/* Right */}
           <form className="contact-form">
 
             <div className="form-group">
