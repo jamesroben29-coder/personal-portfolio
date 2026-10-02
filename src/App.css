@@ -1,5 +1,5 @@
 
-/* ့Hero Styling */
+/* Hero Styling */
 .hero {
   position: relative;
   min-height: 100vh;
@@ -448,7 +448,7 @@
 }
 
 
-/* ့Hero responsive Styling */
+/* Hero responsive Styling */
 
 @media (max-width: 900px) {
   .hero-container {
