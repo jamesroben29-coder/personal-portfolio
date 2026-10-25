@@ -103,8 +103,9 @@ const Navbar = () => {
           </div>
 
           <a
-            href={`${import.meta.env.BASE_URL}Nyi-Nyi-Aung-CV.pdf`}
-            download className="resume-btn"
+            href={`${import.meta.env.BASE_URL}James_Roben_Frontend_Developer_CV_Modern_Blue_Icons_Spacing_Fixed.pdf`}
+            download
+            className="resume-btn"
           >
             Download CV
           </a>
