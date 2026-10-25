@@ -37,8 +37,26 @@ const projects = [
     github:
       "https://github.com/jamesroben29-coder/nova-tech-gadget-store",
   },
+  
   {
     number: "03",
+    title: "Image Gallery",
+    category: "React & TypeScript",
+    description:
+      "A responsive image gallery built with React, TypeScript, Vite, and Tailwind CSS. Features Unsplash API integration, image search and filtering, local image uploads, image previews, and delete functionality.",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "Unsplash API",
+    ],
+    live: "https://image-gallery-typescript-eta.vercel.app",
+    github:
+      "https://github.com/jamesroben29-coder/image-gallery-typescript",
+  },
+  {
+    number: "04",
     title: "React Todo App",
     category: "React Application",
     description:
